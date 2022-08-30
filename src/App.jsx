@@ -19,16 +19,13 @@ const [token, setToken] = useState();
   return (
     <div>
       <h1 className='tittle'>Welcome</h1>
-
       <BrowserRouter>
         <Routes>
           <Route path='/dashboard' element={ <Dashboard /> } />
           <Route path='/maincontent' element={ <Maincontent /> } />
         </Routes>
       </BrowserRouter>
-
-
-  </div>
+    </div>
   );
 }
 
